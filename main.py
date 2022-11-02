@@ -1,21 +1,34 @@
-class car:
-    #constructor
-    def __init__(self,window,tyres,engine):
-       self.window=window
-       self.tyres=tyres
-       self.engine=engine
-    #self isliye use hote hai qki hum self k through hum koi bhi attribute jo bhi car ki class k andrr hota
-     # hai hum usko directly call kr skte h
+def main():
+    print("___WELCOME TO FIDA ACADEMY___")
+    print("\t1)To Get Student Details")
+    print("\t2)To Add New Student")
+    print("\t3)To Remove Student")
+    print("\t4)To Update Student Details")
+    print("\t5)To Get All Student Details")
 
-car1=car(4,4,"petrol")
-print(car1.tyres)
-print(car1.engine)
+    option=input("Enter AAny Above Given Option :")
+    print()
 
-class parrot:
-    def __init__(self,name,colour):
-        self.name=name
-        self.colour=colour
+    if option=="1":
+        pass
+    elif option=="2":
+        pass
+    elif option=="3":
+        pass
+    elif option=="4":
+        pass
+    elif option=="5":
+        pass
+class student:
+    def __init__(self,Student_Name,Register_No,Mobile_No,A):
+        self.Student_Name=input("\tEnter the student Name :")
+        self.Register_No=input("\tEnter the Register number :")
+        self.Mobile_No=input("\tEnter the Mobile Number :")
+        self.Address=input("\tEnter the Address :")
+        self.Course=input("\tEnter the Course :")
+        self.Fees=input("\tEnter the actual Fees :")
 
-        blu=parrot("monu","blue")
-        print(blu.name)
-        print("self.inn")
+
+
+
+

@@ -1,3 +1,6 @@
+import pandas as pd
+
+
 A=pd.DataFrame(
     {"ROLL NO":[101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,123,124,125,126,127,128,129,130,131,132,133],
                         "STUDENT NAME":["Anitha H","Arjun G","Babu T","Baskar K","Careena B","Chinnu E","Dheeran D","Dhivya S","Eesha A","Emily J","Fasil S","Geetha R","Gobi M","Hari P","Hassan V","Ilango B","Isha N","Jameer K","Janvi V","Kathir K","Kesav U","Manoj G","Mithran S","Navin P","Nivas V","Pavithra G","Priya T","Rahul D","Raj K","Sneha P","Suresh S","Tripathi M"],
@@ -16,8 +19,6 @@ A=pd.DataFrame(
 A["TOTAL"]=A["LANGUAGE"]+A["ENGLISH"]+A["MATHS"]+A["PHYSICS"]+A["CHEMISTRY"]+A["BIOLOGY"]
 A["AVERAGE"]=A["TOTAL"].mean()
 
-A
-
-
+print(A)
 
 
